@@ -3,40 +3,7 @@
 > vite
 
 
-  VITE v5.4.20  ready in 290 ms
+  VITE v5.4.20  ready in 287 ms
 
   ➜  Local:   http://localhost:3000/
   ➜  Network: http://172.20.0.140:3000/
-3:57:45 AM [vite] Pre-transform error: [postcss] /home/workspace/src/styles/theme.css:1:1: `@layer base` is used but no matching `@tailwind base` directive is present.
-3:57:46 AM [vite] Internal server error: [postcss] /home/workspace/src/styles/theme.css:1:1: `@layer base` is used but no matching `@tailwind base` directive is present.
-  Plugin: vite:css
-  File: /home/workspace/src/styles/theme.css:1:0
-  1  |  @layer base {
-     |  ^
-  2  |    body.neon-dark {
-  3  |      @apply bg-slate-950 text-slate-100;
-      at Input.error (/home/workspace/node_modules/postcss/lib/input.js:135:16)
-      at AtRule.error (/home/workspace/node_modules/postcss/lib/node.js:146:32)
-      at normalizeTailwindDirectives (/home/workspace/node_modules/tailwindcss/lib/lib/normalizeTailwindDirectives.js:72:32)
-      at /home/workspace/node_modules/tailwindcss/lib/processTailwindFeatures.js:29:98
-      at plugins (/home/workspace/node_modules/tailwindcss/lib/plugin.js:38:69)
-      at LazyResult.runOnRoot (/home/workspace/node_modules/postcss/lib/lazy-result.js:361:16)
-      at LazyResult.runAsync (/home/workspace/node_modules/postcss/lib/lazy-result.js:290:26)
-      at LazyResult.async (/home/workspace/node_modules/postcss/lib/lazy-result.js:192:30)
-      at LazyResult.then (/home/workspace/node_modules/postcss/lib/lazy-result.js:436:17)
-3:58:11 AM [vite] Internal server error: [postcss] /home/workspace/src/styles/theme.css:1:1: `@layer base` is used but no matching `@tailwind base` directive is present.
-  Plugin: vite:css
-  File: /home/workspace/src/styles/theme.css:1:0
-  1  |  @layer base {
-     |  ^
-  2  |    body.neon-dark {
-  3  |      @apply bg-slate-950 text-slate-100;
-      at Input.error (/home/workspace/node_modules/postcss/lib/input.js:135:16)
-      at AtRule.error (/home/workspace/node_modules/postcss/lib/node.js:146:32)
-      at normalizeTailwindDirectives (/home/workspace/node_modules/tailwindcss/lib/lib/normalizeTailwindDirectives.js:72:32)
-      at /home/workspace/node_modules/tailwindcss/lib/processTailwindFeatures.js:29:98
-      at plugins (/home/workspace/node_modules/tailwindcss/lib/plugin.js:38:69)
-      at LazyResult.runOnRoot (/home/workspace/node_modules/postcss/lib/lazy-result.js:361:16)
-      at LazyResult.runAsync (/home/workspace/node_modules/postcss/lib/lazy-result.js:290:26)
-      at LazyResult.async (/home/workspace/node_modules/postcss/lib/lazy-result.js:192:30)
-      at LazyResult.then (/home/workspace/node_modules/postcss/lib/lazy-result.js:436:17)
